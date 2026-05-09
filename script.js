@@ -1,21 +1,10 @@
 const countdown = document.querySelector("[data-countdown]");
 const loader = document.querySelector(".invite-loader");
-const introSeenKey = "hema-narendra-invite-intro-seen";
-const replayIntro = new URLSearchParams(window.location.search).get("intro") === "1";
 
-if (replayIntro) {
-  localStorage.removeItem(introSeenKey);
-}
-
-if (!replayIntro && localStorage.getItem(introSeenKey) === "yes") {
-  loader?.classList.add("is-hidden");
-} else {
-  document.body.classList.add("is-loading");
-}
+document.body.classList.add("is-loading");
 
 function finishIntro() {
   document.body.classList.remove("is-loading");
-  localStorage.setItem(introSeenKey, "yes");
   loader?.remove();
 }
 
@@ -39,6 +28,4 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
-if (!loader?.classList.contains("is-hidden")) {
-  setTimeout(finishIntro, 4300);
-}
+setTimeout(finishIntro, 4300);
