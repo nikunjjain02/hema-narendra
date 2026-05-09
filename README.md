@@ -1,4 +1,4 @@
-# Hema & Narendra 25th Anniversary Invitation
+# Hema & Narendar 25th Anniversary Invitation
 
 A mobile-first static invitation site ready for Vercel deployment.
 

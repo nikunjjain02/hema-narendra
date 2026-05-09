@@ -1,13 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hema Narendra Anniversary//Invitation//EN
+PRODID:-//Hema Narendar Anniversary//Invitation//EN
 BEGIN:VEVENT
-UID:hema-narendra-anniversary-20260519@invitation
+UID:hema-narendar-anniversary-20260519@invitation
 DTSTAMP:20260509T180000Z
 DTSTART;TZID=Asia/Kolkata:20260519T190000
 DTEND;TZID=Asia/Kolkata:20260519T230000
-SUMMARY:Hema & Narendra 25th Anniversary Celebration
+SUMMARY:Hema & Narendar 25th Anniversary Celebration
 LOCATION:Terapant Bhavan, Vijayanagar, Bengaluru
-DESCRIPTION:25th anniversary celebration of Hema and Narendra.
+DESCRIPTION:25th anniversary celebration of Hema and Narendar.
 END:VEVENT
 END:VCALENDAR

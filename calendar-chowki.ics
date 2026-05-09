@@ -1,8 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hema Narendra Anniversary//Invitation//EN
+PRODID:-//Hema Narendar Anniversary//Invitation//EN
 BEGIN:VEVENT
-UID:hema-narendra-chowki-20260518@invitation
+UID:hema-narendar-chowki-20260518@invitation
 DTSTAMP:20260509T180000Z
 DTSTART;TZID=Asia/Kolkata:20260518T200000
 DTEND;TZID=Asia/Kolkata:20260518T230000
